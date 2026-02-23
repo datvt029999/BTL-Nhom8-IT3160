@@ -1,11 +1,11 @@
 # TÌM KIẾM ĐƯỜNG ĐI NGẮN NHẤT BẰNG THUẬT TOÁN A*
-Mô phỏng bản đồ phường Thành Công, quận Ba Đình (địa giới hành chính cũ), thành phố Hà Nội và tìm đường đi ngắn nhất giữa hai địa điểm bất kỳ.
+Mô phỏng việc tìm kiếm đường đi ngắn nhất giữa hai địa điểm bất kỳ tại phường Thành Công, quận Ba Đình (địa giới hành chính cũ), thành phố Hà Nội.
 
 ## 1. Tính năng
 - Chọn điểm xuất phát và kết thúc.
 - Thêm các điểm hoặc khu vực cấm đi qua.
 - Hiển thị đường đi ngắn nhất.
-- Tính toán quãng đường và thời gian di chuyển tùy theo phương tiện.
+- Tính toán quãng đường và thời gian di chuyển tùy theo phương tiện lựa chọn.
 
 ## 2. Thuật toán sử dụng
 ### 2.1. Thuật toán A*
@@ -25,7 +25,7 @@ Bản đồ được biểu diễn dưới dạng lưới ô vuông nên có th�
 </p>
 
 ### 2.3. Độ phức tạp
-Bản đồ được biểu diễn dưới dạng đồ thị thưa và sử dụng hàng đợi ưu tiên `heapq` nên độ phức tạp cho việc tìm kiếm đường đi là `O(N log N)`.
+Bản đồ có dạng đồ thị thưa và sử dụng hàng đợi ưu tiên `heapq` nên độ phức tạp cho việc tìm kiếm đường đi là `O(N log N)`, với `N` là số đỉnh của đồ thị.
 
 ## 3. Cách sử dụng bản đồ
 

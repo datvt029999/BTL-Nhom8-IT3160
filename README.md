@@ -14,6 +14,7 @@ Hàm đánh giá là:
     <strong>f(n) = g(n) + h(n),</strong>
 </p>
 trong đó:
+
 - `g(n)`: Chi phí thực tế từ điểm bắt đầu đến đỉnh n.
 - `h(n)`: Chi phí ước lượng từ n đến đích.
 

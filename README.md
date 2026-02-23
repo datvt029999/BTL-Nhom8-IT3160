@@ -15,8 +15,8 @@ Hàm đánh giá là:
 </p>
 trong đó:
 
-- `g(n)`: Chi phí thực tế từ điểm bắt đầu đến đỉnh n.
-- `h(n)`: Chi phí ước lượng từ n đến đích.
+- `g(n)` là chi phí thực tế từ điểm bắt đầu đến đỉnh n.
+- `h(n)` là chi phí ước lượng từ n đến đích.
 
 ### 2.2. Hàm heuristic tám hướng (Octile Distance)
 Bản đồ được biểu diễn dưới dạng lưới ô vuông nên có thể di chuyển theo tám hướng. Dựa vào đó, hàm heuristic được dùng là:
@@ -25,7 +25,7 @@ Bản đồ được biểu diễn dưới dạng lưới ô vuông nên có th�
 </p>
 
 ### 2.3. Độ phức tạp
-Bản đồ có dạng đồ thị thưa nên độ phức tạp cho việc tìm kiếm đường đi sử dụng hàng đợi ưu tiên `heapq` là `O(N log N)`, với `N` là số đỉnh của đồ thị.
+Bản đồ có dạng đồ thị thưa nên độ phức tạp cho việc tìm kiếm đường đi sử dụng cấu trúc hàng đợi ưu tiên `heapq` là `O(N log N)`, với `N` là số đỉnh của đồ thị.
 
 ## 3. Cách sử dụng bản đồ
 ### 3.1. Cài đặt thư viện
